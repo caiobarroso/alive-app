@@ -1,20 +1,40 @@
-# React + Vite
+# Projeto React + Vite
 
-Para iniciar o projeto, é necessário primeiro rodar o seguinte comando para instalar todas as dependências 
+Este é um guia abrangente para o nosso projeto React desenvolvido com Vite, estilizado com Tailwind CSS e testado com Cypress. Aqui, você encontrará informações sobre como instalar, configurar e executar o projeto, bem como detalhes sobre as especificações técnicas e como executar testes.
 
+## Pré-requisitos
+
+Antes de começar, certifique-se de que você atende aos seguintes requisitos:
+
+- Node.js instalado (v14 ou superior)
+- Git instalado
+- Repositório do servidor em execução (consulte a documentação específica do servidor)
+
+## Instalação
+
+Para configurar o ambiente e instalar todas as dependências do projeto, siga estas etapas:
+
+1. Clone o repositório do projeto:
+
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
+```
+2. Navegue até o diretório do projeto:
+```bash
+cd seu-projeto
+```
+3. Instale as dependências usando o npm:
 ```bash
 npm install
 ```
-Lembre-se que é necessário estar com o repositório server rodando para que toda a aplicação esteja funcionando.
+Lembre-se de que o repositório do servidor deve estar em execução para que a aplicação funcione corretamente.
 
-Após se certificar que tudo está devidamente configurado, execute o seguinte comando para iniciar o projeto:
-
+## Instalação
+Agora que todas as dependências estão instaladas, você pode iniciar o projeto. Use o seguinte comando:
 ```bash
 npm run dev
 ```
-Nesse projeto, o cypress é responsável por testar todos os componentes da aplicação. Logo, caso queira executar os testes, basta executar o seguinte comando no terminal:
 
- ```bash
-npx cypress open
-```
+## Instalação
 
+Nossos testes são executados usando o Cypress, uma ferramenta de teste de front-end altamente eficaz. Para executar os testes, siga estas etapas:
