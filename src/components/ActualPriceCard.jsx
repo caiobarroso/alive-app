@@ -43,7 +43,7 @@ const ActualPriceCard = () => {
           data-testId="price-change"
           className="bg-[#121219] rounded-md text-white px-5 py-1 text-base"
         >
-          + 2140 (2.86%)
+          + 2.86%
         </div>
       </div>
       <p

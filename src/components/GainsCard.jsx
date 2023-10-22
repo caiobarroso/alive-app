@@ -58,7 +58,7 @@ const GainsCard = () => {
         </div>
         <div className="flex flex-row justify-between">
           <p data-testid="quantity-title">Quantidade Comprada</p>
-          <p data-testid="quantity-value">{currentData.purchasedAt}</p>
+          <p data-testid="quantity-value">{currentData.purchasedAmount}</p>
         </div>
         <div className="flex flex-row justify-between">
           <p data-testid="variation-title">Variação desde a Compra</p>
