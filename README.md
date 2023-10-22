@@ -5,15 +5,9 @@ Para iniciar o projeto, é necessário primeiro rodar o seguinte comando para in
 ```bash
 npm install
 ```
-Logo após todas as dependências serem instaladas com êxito, rode o seguinte comando para startar o projeto:
-
-```bash
-npm install
-```
-
 Lembre-se que é necessário estar com o repositório server rodando para que toda a aplicação esteja funcionando.
 
-Após se certificar que tudo está devidamente configurado, execute o seguinte comando:
+Após se certificar que tudo está devidamente configurado, execute o seguinte comando para iniciar o projeto:
 
 ```bash
 npm run dev
